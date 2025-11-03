@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>REVELO</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+
+   <style>
+
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+  <a class="navbar-brand" href="#">REVELO</a>
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ms-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#accordionGallery">Gallery</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#carouselgallery">Projects</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#logos">Contact me</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<div class="upperbbg">
+  <img src="assets/bg.jpg" alt="Background" class="hero-img">
+  <div class="overlay-text text-center text-white">
+    <h1 class="fw-bold">Hi, I'm Richard Revelo</h1>
+    <p>An Aspiring Programmer / Developer</p>
+    <a href="#aboutme" class="btn btn-light btn-lg mt-3">About Me</a>    
+  </div>
+</div>
+
+<div class="aboutme" id="aboutme">
+</div><div class="container my-5">
+  <div class="row align-items-center">
+    <!--Left side: Carousel-->
+    <div class="col-md-6">
+      <div id="aboutCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner rounded shadow">
+          <div class="carousel-item active">
+            <img src="assets/_10580.JPG" class="d-block w-100" alt="First slide">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/_11254.JPG" class="d-block w-100" alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/_11255.JPG" class="d-block w-100" alt="Second slide">
+          </div>
+        </div>
+
+        <!--Carousel controls-->
+        <button class="carousel-control-prev" type="button" data-bs-target="#aboutCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#aboutCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+    <div class="col-md-6 text-center text-md-start mt-4 mt-md-0">
+      <div class="aboutme p-4">
+        <h2 class="fw-bold">I'm Richard John F. Revelo!</h2>
+        <p class="lead mt-3">
+          Computer Science graduate with internship experience in technical support, administrative
+tasks, and digital marketing. Skilled in data entry, documentation, and quality assurance. Experienced in video editing, online
+advertising, customer service, and event coordination, with contributions to website
+development and multimedia marketing content.
+        </p>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- GalleryAccordion -->
+<div class="accordion" id="accordionGallery">
+  <div class="accordion-item bg-dark text-light border-0">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed bg-dark text-light" 
+        type="button" data-bs-toggle="collapse" 
+        data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+        Gallery
+      </button>
+    </h2>
+
+    <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionGallery">
+      <div class="accordion-body bg-dark text-light">
+        <div class="row">
+          <div class="column">
+            <img src="assets/1.jpg" style="width:100%">
+            <img src="assets/IMG_1997.JPG" style="width:100%">
+            <img src="assets/IMG_2002.JPG" style="width:100%">
+            <img src="assets/IMG_3784.JPG" style="width:100%">
+          </div>
+          <div class="column">
+            <img src="assets/IMG_2894.JPG" style="width:100%">
+            <img src="assets/IMG_2003.JPG" style="width:100%">
+            <img src="assets/IMG_0559.JPG" style="width:100%">
+            <img src="assets/IMG_3777.JPG" style="width:100%">
+          </div>
+          <div class="column">
+            <video class="d-block w-100" autoplay loop muted playsinline>
+    <source src="assets/grad.mp4" type="video/mp4">
+  </video>
+            <img src="assets/12.JPG" style="width:100%">
+            <img src="assets/IMG_0044.jpg" style="width:100%">
+            <img src="assets/3.jpg" style="width:100%">
+          </div>
+          <div class="column">
+            <img src="assets/IMG_4902.jpg" style="width:100%">
+            <img src="assets/IMG_8745.JPG" style="width:100%">
+            <img src="assets/4.JPG" style="width:100%">
+            <img src="assets/13.jpg" style="width:100%">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div> 
+
+<div class="container my-5" id="carouselgallery">
+  <div class="row">
+    <div class="col-12 text-center mb-4">
+      <h2 class="fw-bold">My Projects!</h2>
+      <p class="lead">!!!</p>
+    </div>
+  </div>
+
+  <!-- Project Carousel -->
+  <div id="projectsCarousel1" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <!-- Slide 1 -->
+      <div class="carousel-item active">
+        <div class="row g-2 justify-content-center">
+          <div class="col-md-4">
+            <div class="card shadow-sm border-0">
+              <img src="assets/Capture.PNG" class="card-img-top" alt="Project 1">
+              <div class="card-body text-center">
+                <h5 class="card-title">AEP PH Website</h5>
+                <p class="card-text">OJT Website that we continued and finished /
+                  <a href="https://aepph.com" target="_blank"> aepph</a>
+                </p>
+            
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card shadow-sm border-0">
+              <img src="assets/logo2.png" class="card-img-top" alt="Project 2">
+              <div class="card-body text-center">
+                <h5 class="card-title">Tamang kape</h5>
+                <p class="card-text">Thesis Project : Rule-Based Caffeine Monitoring Mobile System with Intelligent Consumption Guidance and Alerts
+</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card shadow-sm border-0">
+              <img src="assets/IMG_0447.JPG" class="card-img-top" alt="Project 3">
+              <div class="card-body text-center">
+                <h5 class="card-title">Contractor</h5>
+                <p class="card-text">Pinagawa ng court, utos ni boss sa OJT</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 2 -->
+      <div class="carousel-item">
+        <div class="row g-2 justify-content-center">
+          <div class="col-md-4">
+            <div class="card shadow-sm border-0">
+              <img src="assets/noimg.jpg" class="card-img-top" alt="Project 4">
+              <div class="card-body text-center">
+                <h5 class="card-title">Project 4</h5>
+                <p class="card-text">Short description of Project 4.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card shadow-sm border-0">
+              <img src="assets/noimg.jpg" class="card-img-top" alt="Project 5">
+              <div class="card-body text-center">
+                <h5 class="card-title">Project 5</h5>
+                <p class="card-text">Short description of Project 5.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card shadow-sm border-0">
+              <img src="assets/noimg.jpg" classs="card-img-top" alt="Project 6">
+              <div class="card-body text-center">
+                <h5 class="card-title">Project 6</h5>
+                <p class="card-text">Short description of Project 6.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+      <!-- Controls -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#projectsCarousel1" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#projectsCarousel1" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+
+    <div class="container my-5" id="carouselgallery">
+  <div class="row">
+    <div class="col-12 text-center mb-4">
+      <h2 class="fw-bold">Achievements!</h2>
+      <p class="lead">Empty</p>
+    </div>
+  </div>
+
+  <!-- Achievement Carousel -->
+  <div id="projectsCarousel2" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <!-- Slide 1 -->
+      <div class="carousel-item active">
+        <div class="row g-2 justify-content-center">
+          <div class="col-md-4">
+            <div class="card shadow-sm border-0">
+              <img src="assets/noimg.jpg" class="card-img-top" alt="Project 1">
+              <div class="card-body text-center">
+                <h5 class="card-title">Achievement 1</h5>
+                <p class="card-text">Short description of Achievement 1.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card shadow-sm border-0">
+              <img src="assets/noimg.jpg" class="card-img-top" alt="Project 2">
+              <div class="card-body text-center">
+                <h5 class="card-title">Achievement 2</h5>
+                <p class="card-text">Short description of Achievement 2.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card shadow-sm border-0">
+              <img src="assets/noimg.jpg" class="card-img-top" alt="Project 3">
+              <div class="card-body text-center">
+                <h5 class="card-title">Achievement 3</h5>
+                <p class="card-text">Short description of Achievement 3.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 2 -->
+      <div class="carousel-item">
+        <div class="row g-2 justify-content-center">
+          <div class="col-md-4">
+            <div class="card shadow-sm border-0">
+              <img src="assets/noimg.jpg" class="card-img-top" alt="Project 4">
+              <div class="card-body text-center">
+                <h5 class="card-title">Achievement 4</h5>
+                <p class="card-text">Short description of Achievement 4.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card shadow-sm border-0">
+              <img src="assets/noimg.jpg" class="card-img-top" alt="Project 5">
+              <div class="card-body text-center">
+                <h5 class="card-title">Achievement 5</h5>
+                <p class="card-text">Short description of Achievement 5.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card shadow-sm border-0">
+              <img src="assets/noimg.jpg" class="card-img-top" alt="Project 6">
+              <div class="card-body text-center">
+                <h5 class="card-title">Achievement 6</h5>
+                <p class="card-text">Short description of Achievement 6.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Controls -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#projectsCarousel2" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#projectsCarousel2" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+
+<!-- Contact Section -->
+<section class="py-5 text-light" 
+  style="background: url('assets/bg.jpg') no-repeat center center/cover;">
+  <div class="container text-center">
+    <h3 class="fw-bold mb-4">Get in Touch</h3>
+    <p class="mb-4" style="opacity: 0.8;">rfrevelo@sscgi.com</p>
+    <p class="mb-4">Or Follow or message me on these platforms:</p>
+
+    <div class="d-flex justify-content-center gap-4 fs-1" id="logos">
+      <a href="https://facebook.com/drahcirolever/" target="_blank" class="text-light"><i class="bi bi-facebook"></i></a>
+      <a href="https://instagram.com/_johnrevelo/" target="_blank" class="text-light"><i class="bi bi-instagram"></i></a>
+      <a href="https://www.linkedin.com/in/richard-revelo-7817382b6/" target="_blank" class="text-light"><i class="bi bi-linkedin"></i></a>
+      <a href="https://discord.com/users/608093804490391571" target="_blank" class="text-light"><i class="bi bi-discord"></i></a>
+      <a href="https://github.com/richardjohn16" target="_blank" class="text-light"><i class="bi bi-github"></i></a>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+    <footer class="footer-dark py-3 text-center">
+  <div class="container">
+    <p class="mb-0">
+      © 2025 <strong>Richard Revelo</strong>. All Rights Reserved.
+    </p>
+    <small class="text-secondary">
+      Designed & Built by Richard Revelo
+    </small>
+  </div>
+</footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
