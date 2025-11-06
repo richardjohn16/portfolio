@@ -110,18 +110,17 @@ development and multimedia marketing content.
           </div>
           <div class="column">
             <img src="assets/IMG_2894.jpg" style="width:100%">
-            <img src="assets/IMG_2003.JPG" style="width:100%"> 
-          </div>
+            <img src="assets/IMG_2003.JPG" style="width:100%">
           <div class="column">
             <video class="d-block w-100" autoplay loop muted playsinline>
-            <source src="assets/grad.mp4" type="video/mp4"></video>
+    <source src="assets/grad.mp4" type="video/mp4">
+  </video>
             <img src="assets/12.JPG" style="width:100%">
           </div>
           <div class="column">
             <img src="assets/IMG_4902.jpg" style="width:100%">
             <img src="assets/IMG_8745.JPG" style="width:100%">
           </div>
-          
         </div>
       </div>
     </div>
@@ -143,17 +142,17 @@ development and multimedia marketing content.
       <div class="carousel-item active">
         <div class="row g-2 justify-content-center">
           <div class="col-md-4">
-            <div class="card shadow-sm border-0">
-              <img src="assets/Capture.PNG" class="card-img-top" alt="Project 1">
-              <div class="card-body text-center">
-                <h5 class="card-title">AEP PH Website</h5>
-                <p class="card-text">OJT Website that we continued and finished /
-                  <a href="https://aepph.com" target="_blank"> aepph</a>
-                </p>
-            
-              </div>
-            </div>
-          </div>
+  <a href="https://aepph.com" target="_blank" class="text-decoration-none text-dark">
+    <div class="card shadow-sm border-0 h-100">
+      <img src="assets/Capture.PNG" class="card-img-top" alt="Project 1">
+      <div class="card-body text-center">
+        <h5 class="card-title">AEP PH Website</h5>
+        <p class="card-text">OJT Website that we continued and finished</p>
+      </div>
+    </div>
+  </a>
+</div>
+
           <div class="col-md-4">
             <div class="card shadow-sm border-0">
               <img src="assets/logo2.png" class="card-img-top" alt="Project 2">
@@ -316,10 +315,28 @@ development and multimedia marketing content.
 <!-- Contact Section -->
 <section class="py-5 text-light" 
   style="background: url('assets/bg.jpg') no-repeat center center/cover;">
-  <div class="container text-center">
+  <div class="container text-center" id="contact-part">
     <h3 class="fw-bold mb-4">Get in Touch</h3>
     <p class="mb-4" style="opacity: 0.8;">rfrevelo@sscgi.com</p>
-    <p class="mb-4">Or Follow or message me on these platforms:</p>
+
+    <form class="mx-auto contact-form" action="https://formspree.io/f/xjkpnovv" method="POST">
+      <div class="row g-3 justify-content-center">
+        <div class="col-md-6">
+          <input type="text" class="form-control" placeholder="Your Name">
+        </div>
+        <div class="col-md-6">
+          <input type="email" class="form-control" placeholder="Your Email">
+        </div>
+        <div class="col-12">
+          <textarea class="form-control message-box" rows="5" placeholder="Your Message"></textarea>
+        </div>
+        <div class="col-12">
+          <button type="submit" class="btn btn-primary px-5 mt-3">Send Message</button>
+        </div>
+      </div>
+    </form>
+
+    <p class="mt-5 mb-3">Or follow or message me on these platforms:</p>
 
     <div class="d-flex justify-content-center gap-4 fs-1" id="logos">
       <a href="https://facebook.com/drahcirolever/" target="_blank" class="text-light"><i class="bi bi-facebook"></i></a>
@@ -330,6 +347,7 @@ development and multimedia marketing content.
     </div>
   </div>
 </section>
+
 
 
 
